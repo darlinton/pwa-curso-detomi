@@ -1,6 +1,5 @@
 const detomiDev = "calc-calender-v1"
 const assets = [
-    "/",
     "/index.html",
     "/css/mystile.css",
     "/css/myscripts.js",

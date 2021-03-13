@@ -24,5 +24,5 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "https://https://darlinton.github.io/pwa-curso-detomi/?pwa_launcher=true"
+    "start_url": "index.html"
   }
