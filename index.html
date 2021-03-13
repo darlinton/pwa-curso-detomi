@@ -12,6 +12,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
     <script src="js/myscript.js"></script>
     <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="manifest" href="manifest.json" />
+    <link rel="shortcut icon" href="imgs/calculator.png" type="image/x-png" />    
 </head>
 <body>
 
@@ -41,14 +43,6 @@
       <footer class="container">
         <p>&copy; Curso de PWA do Detomi </p>
       </footer>
-
-      <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function() {
-                navigator.serviceWorker.register('serviceWorker.js', {scope: '.'});                
-            });
-        }
-      </script>
   
 </body>
 </html>
