@@ -1,0 +1,22 @@
+{
+    "short_name": "Meu Primeiro PWA",
+    "name": "Meu Primeiro PWA - Curso do Detomi",
+    "icons": [
+      {
+        "src": "icon-1x.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "icon-2x.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "4x.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "https://https://darlinton.github.io/pwa-curso-detomi/?pwa_launcher=true"
+  }
