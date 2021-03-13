@@ -48,9 +48,7 @@
       </nav>
   
       <main role="main">
-  
-  
-        <div class="container"  style="background-color: #eee;">
+            <div class="container-fluid border">
             <h1>Calculadora</h1>
             <form>
                 <div class="form-group">
@@ -75,6 +73,14 @@
       <footer class="container">
         <p>&copy; Curso de PWA do Detomi </p>
       </footer>
+
+      <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('serviceWorker.js');
+            });
+        }
+      </script>
   
 </body>
 </html>
