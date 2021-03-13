@@ -1,8 +1,8 @@
 const detomiDev = "calc-calender-v1"
 const assets = [
-    "/index.html",
-    "/css/mystyle.css",
-    "/js/myscript.js"
+    "../index.html",
+    "../css/mystyle.css",
+    "../js/myscript.js"
 ]
 
 self.addEventListener("install", installEvent => {
